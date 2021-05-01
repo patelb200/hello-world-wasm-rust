@@ -1,0 +1,28 @@
+{
+  "name": "hello-world-wasm-sort-app",
+  "version": "1.0.0",
+  "description": "Hello world wasm using Rust",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server"
+  },
+  "dependencies": {
+    "hello-world-wasm-sort": "file:../pkg"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patelb200/hello-world-wasm-sort.git"
+  },
+  "author": "patelb200",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patelb200/hello-world-wasm-sort/issues"
+  },
+  "homepage": "https://github.com/patelb200/hello-world-wasm-sort#readme"
+}
